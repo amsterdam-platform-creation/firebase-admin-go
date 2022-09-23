@@ -28,7 +28,7 @@ import (
 	"runtime"
 	"testing"
 
-	"firebase.google.com/go/v4/internal"
+	"github.com/amsterdam-platform-creation/firebase-admin-go/internal"
 	"google.golang.org/api/option"
 )
 

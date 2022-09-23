@@ -21,8 +21,8 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"firebase.google.com/go/v4/errorutils"
-	"firebase.google.com/go/v4/internal"
+	"github.com/amsterdam-platform-creation/firebase-admin-go/errorutils"
+	"github.com/amsterdam-platform-creation/firebase-admin-go/internal"
 	"google.golang.org/api/option"
 )
 

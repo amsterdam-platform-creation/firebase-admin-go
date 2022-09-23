@@ -28,10 +28,10 @@ import (
 	"reflect"
 	"testing"
 
-	firebase "firebase.google.com/go/v4"
-	"firebase.google.com/go/v4/db"
-	"firebase.google.com/go/v4/errorutils"
-	"firebase.google.com/go/v4/integration/internal"
+	firebase "github.com/amsterdam-platform-creation/firebase-admin-go"
+	"github.com/amsterdam-platform-creation/firebase-admin-go/db"
+	"github.com/amsterdam-platform-creation/firebase-admin-go/errorutils"
+	"github.com/amsterdam-platform-creation/firebase-admin-go/integration/internal"
 )
 
 var client *db.Client

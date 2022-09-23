@@ -24,9 +24,9 @@ import (
 	"testing"
 
 	gcs "cloud.google.com/go/storage"
-	firebase "firebase.google.com/go/v4"
-	"firebase.google.com/go/v4/integration/internal"
-	"firebase.google.com/go/v4/storage"
+	firebase "github.com/amsterdam-platform-creation/firebase-admin-go"
+	"github.com/amsterdam-platform-creation/firebase-admin-go/integration/internal"
+	"github.com/amsterdam-platform-creation/firebase-admin-go/storage"
 )
 
 var ctx context.Context

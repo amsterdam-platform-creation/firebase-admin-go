@@ -23,8 +23,8 @@ import (
 	"path/filepath"
 	"strings"
 
-	firebase "firebase.google.com/go/v4"
-	"firebase.google.com/go/v4/internal"
+	firebase "github.com/amsterdam-platform-creation/firebase-admin-go"
+	"github.com/amsterdam-platform-creation/firebase-admin-go/internal"
 	"google.golang.org/api/option"
 	"google.golang.org/api/transport"
 )
